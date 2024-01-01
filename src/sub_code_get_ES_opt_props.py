@@ -1,11 +1,7 @@
 
-import os
 import re
-import sys
-import argparse
 import numpy as np
-from ase.data import chemical_symbols
-from sub_code_get_GS_opt_props import Gaussian16
+from parse_g16.src.sub_code_get_GS_opt_props import Gaussian16
 
 class Gaussian16_ES(Gaussian16):
    def __init__(self, output, work_type):

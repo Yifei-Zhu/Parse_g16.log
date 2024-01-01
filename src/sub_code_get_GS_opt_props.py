@@ -1,8 +1,6 @@
 
-import os
+
 import re
-import sys
-import argparse
 import numpy as np
 from ase.data import chemical_symbols
 
